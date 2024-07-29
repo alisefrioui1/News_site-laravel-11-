@@ -6,6 +6,7 @@
 <h1>Mot de passe oublie?</h1>
 <p class="account-subtitle">Entrer votre email pour obtenier le lien de reunitialisation</p>
 <form method="POST" action="{{ route('password.email') }}">
+    @csrf
     <div class="form-group">
         <input class="form-control" type="email" name="email" placeholder="Email"> </div>
     <div class="form-group mb-0">

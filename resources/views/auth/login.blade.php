@@ -17,7 +17,7 @@
 									<button class="btn btn-primary btn-block" type="submit">Login</button>
 								</div>
 							</form>
-							<div class="text-center forgotpass"><a href="forgot-password.html">Forget password?</a> </div>
+							<div class="text-center forgotpass"><a href="{{route("password.request")}}">Forget password?</a> </div>
 							
 							<div class="text-center dont-have">if you don't have an account  <a href="{{ route('register') }}">regester</a></div>
 @endsection

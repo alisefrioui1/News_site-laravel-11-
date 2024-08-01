@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href=" {{ asset('Back_auth/assets/plugins/fontawesome/css/fontawesome.min.css')}}">
 	<link rel="stylesheet" href=" {{ asset('Back_auth/assets/css/feathericon.min.css')}} ">
 	<link rel="stylesheet" href=" {{ asset('Back_auth/assets/plugins/morris/morris.css')}} ">
-	<link rel="stylesheet" href=" {{ asset('Back_auth/assets/css/style.css')}} "> </head>
+	<link rel="stylesheet" href=" {{ asset('Back_auth/assets/css/style.css')}} "> 	</head>
 
 <body>
 	<div class="main-wrapper login-body">
@@ -32,7 +32,6 @@
 	<script src=" {{asset('Back_auth/ assets/js/popper.min.js')}}"></script>
 	<script src=" {{asset('Back_auth/assets/js/bootstrap.min.js')}} "></script>
 	<script src=" {{asset('Back_auth/assets/plugins/slimscroll/jquery.slimscroll.min.js')}} "></script>
-	<script src=" {{asset('Back_auth/assets/js/script.js')}} "></script>
-</body>
+	<script src=" {{asset('Back_auth/assets/js/script.js')}} "></script></body>
 
 </html>

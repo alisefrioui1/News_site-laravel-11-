@@ -1,8 +1,20 @@
-@extends('auth.dashboard-layout')
+@extends('Back.dashboard-layout')
 
+@section('title','dashboard - home')
+    
+@section('dashboard_header')
+<div class="row">
+    <div class="col-sm-12 mt-5">
+      <h3 class="page-title mt-3">Hello, Bonjour {{ Auth::user()->name }}</h3>
+      <ul class="breadcrumb">
+        <li class="breadcrumb-item active">Dashboard</li>
+      </ul>
+    </div>
+  </div>
+@endsection
 
-@section('content')
-
+@section('dashboard_content')
+    
 <div class="row">
     <div class="col-xl-3 col-sm-6 col-12">
       <div class="card board1 fill">
@@ -186,5 +198,6 @@
       </div>
     </div>
   </div>
+
 
 @endsection
